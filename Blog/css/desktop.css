@@ -1,0 +1,26 @@
+/*desktop*/
+@media(min-width: 1000px){
+  .container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 3fr auto;
+    grid-gap: 1em;
+    grid-template-areas:
+    "title title title"
+    "content content side"
+    "foot foot foot";
+  }
+  .blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap:2em;
+  }
+  .menu-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2em;
+    text-align: center;
+  }
+}

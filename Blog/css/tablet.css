@@ -1,0 +1,25 @@
+/*tablet*/
+@media(min-width: 800px) and (max-width: 1000px) {
+  .container{
+    display:grid;
+    grid-template-columns: 2fr auto;
+    grid-template-rows: 1fr 3fr auto;
+    grid-template-areas:
+    "title title title"
+    "content content side"
+    "foot foot foot";
+  }
+  .blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap:2em;
+  }
+  .menu-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2em;
+    text-align: center;
+  }
+}

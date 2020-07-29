@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<lang="en">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirect Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+     rel="stylesheet">
+    <link rel="stylesheet" href= "style-blog.css">
+  </head>
+  <body>
+<h1>You have click one of the following links:</h1>
+<ul>
+  <li>Subscribe</li>
+  <li>Contact</li>
+  <li>FAQ</li>
+</ul>
+<p>These pages do not exsist. Please click the button below to return home.
+  <button onclick="window.location.href = 'Blog-home.html';">
+    Return Home</button>
+  </body>
+  </html>
